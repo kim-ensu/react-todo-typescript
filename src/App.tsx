@@ -5,8 +5,10 @@ const App: FC = () => {
   return (
     <div className="App">
       <div className="header">
-        <input type="text" placeholder='Task...'/>
-        <input type="number" placeholder='Deadline (in days)...'/>
+        <div className="inpute_container">
+          <input type="text" placeholder='Task...'/>
+          <input type="number" placeholder='Deadline (in days)...'/>
+        </div>
         <button>Add Task</button>
       </div>
       <div className="todoList"></div>
